@@ -11,7 +11,7 @@ function App() {
       <Router>
         <div className="principal">
           <Routes>
-            <Route exact path="/" element={<Header />}></Route>
+            <Route exact path="/peliculas-react" element={<Header />}></Route>
             <Route exact path="/:busq" element={<Header />}></Route>
             <Route exact path="/details/:busq/:id" element={<Details />}></Route>
           </Routes>
